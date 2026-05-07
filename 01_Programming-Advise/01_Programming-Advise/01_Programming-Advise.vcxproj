@@ -19,315 +19,240 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 1.cpp" />
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 10.cpp">
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\01_PrintFullName.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 11.cpp">
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\02_ReadAndPrintFullName.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 12.cpp">
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\03_EvenOrOdd.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 13.cpp">
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\04_HireADriver_Case 1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 14.cpp">
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\05_HireADriver_Case 2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 15.cpp">
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\06_HalfNumber.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 16.cpp">
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\07_PassOrFail.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 17.cpp">
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\08_SumOf3Number.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 18.cpp">
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\09_AverageOf3Number.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 19.cpp">
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\10_PassOrFailWithAverageOf3Number.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 2.cpp">
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\11_MaxOf2Number.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 20.cpp">
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\12_MaxOf3Number.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 21.cpp">
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\13_SwapNumber.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 22.cpp">
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\14_RectangleArea.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 23.cpp">
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\15_RectangleAreaThroughDiagonalAndSideArea.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 24.cpp">
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\16_TriangleArea.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 25.cpp">
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\17_CircleArea.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 26.cpp">
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\18_CircleAreaThroughDiameter.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 27.cpp">
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\19_CircleAreaInscribedInASquare.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 28.cpp">
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\20_CircleAreaAlongTheCircumference.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 29.cpp">
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\21_CircleAreaInscribedInAnIsoscelesTriangle.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 3.cpp">
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\22_CircleAreaDescribedAroundAnArbitraryTriangle.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 30.cpp">
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\23_ValidateUntillAgeBetween18And45.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 31.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 32.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 10.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 33.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 11.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 34.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 12.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 35.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 13.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 36.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 14.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 37.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 15.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 38.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 16.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 39.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 17.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 4.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 18.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 40.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 19.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 41.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 42.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 20.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 43.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 21.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 44.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 22.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 45.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 23.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 46.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 24.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 47.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 25.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 48.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 26.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 49.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 27.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 5.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 28.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 50.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 29.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 6.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 3.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 7.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 30.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 8.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 31.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 9.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 32.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 1.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 33.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 10.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 34.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 11.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 35.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 12.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 36.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 13.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 37.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 14.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 38.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 15.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 39.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 16.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 4.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 17.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 40.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 18.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 41.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 19.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 42.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 2.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 43.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 20.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 44.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 21.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 45.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 22.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 46.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 23.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 47.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 24.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 48.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 25.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 49.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 26.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 5.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 27.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 50.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 28.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 6.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 29.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 7.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 3.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 8.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 30.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 9.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 31.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Project 1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 32.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Project 2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 33.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 34.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 35.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 36.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 37.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 38.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 39.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 4.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 40.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 41.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 42.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 43.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 44.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 45.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 46.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 47.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 48.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 49.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 5.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 50.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 6.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 7.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 8.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Problem 9.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Project 1.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 2\Problem Solving 2\Project 2.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="00_MyLibrary\MyInput.h" />
+    <ClInclude Include="00_MyLibrary\MyMath.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{8504d94e-6ecf-4af3-a3e5-a4993dcec9cc}</ProjectGuid>
+    <ProjectGuid>{892daaa6-fe2f-4206-b54b-999a10989e0a}</ProjectGuid>
     <RootNamespace>My01ProgrammingAdvise</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -408,6 +333,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)00_MyLibrary;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
