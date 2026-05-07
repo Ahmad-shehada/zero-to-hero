@@ -1,5 +1,5 @@
 #include <iostream>
-#include <MyInput.h>
+#include "MyInput.h"
 using namespace std;
 
 float MaxOf3Number(float FirstNumber, float SecondNumber, float ThirdNumber)

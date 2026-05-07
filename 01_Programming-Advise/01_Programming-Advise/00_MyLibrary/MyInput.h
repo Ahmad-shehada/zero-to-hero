@@ -6,9 +6,17 @@
 #include <Limits>
 using namespace std;
 
+
+
 namespace in
 {
-	void ResetBuffer() //Make flush the buffer of any date can make Error!
+	namespace message
+	{
+		const string MessageError = "Error : Invalid Input Please try again : ";// For Invalid Input
+		const string RangeMessageError = "Error : Out of Range Please try again : ";// For invalid selected range
+	}
+
+	void ResetBuffer() //flushing the input buffer of any date can make Error!
 	{
 		cin.ignore(numeric_limits<streamsize>::max(), '\n');
 	}
@@ -22,7 +30,7 @@ namespace in
 
 			if (cin.fail())
 			{
-				cin.clear();
+				cin.clear(); // to clear fail flage of cin
 				ResetBuffer();
 				cout << MessageError;
 			}
@@ -35,7 +43,7 @@ namespace in
 
 	}
 
-	short ReadShort(const string& Message, const string& MessageError = "Invalid Input Please try again : ")
+	short ReadShort(const string& Message, const string& MessageError = message::MessageError)
 	{
 		short Number = 0;
 
@@ -44,7 +52,7 @@ namespace in
 
 		return Number;
 	}
-	int ReadInt(const string& Message, const string& MessageError = "Invalid Input Please try again : ")
+	int ReadInt(const string& Message, const string& MessageError = message::MessageError)
 	{
 		int Number = 0;
 
@@ -53,7 +61,7 @@ namespace in
 
 		return Number;
 	}
-	float ReadFloat(const string& Message, const string& MessageError = "Invalid Input Please try again : ")
+	float ReadFloat(const string& Message, const string& MessageError = message::MessageError)
 	{
 		float Number = 0.0f;
 
@@ -62,7 +70,7 @@ namespace in
 
 		return Number;
 	}
-	double ReadDouble(const string& Message, const string& MessageError = "Invalid Input Please try again : ")
+	double ReadDouble(const string& Message, const string& MessageError = message::MessageError)
 	{
 		double Number = 0.0;
 
@@ -88,6 +96,8 @@ namespace in
 		string Text = "";
 
 		cout << Message;
+		// it uses getline inseted of cin because the stopping condition of take data in the input buffer is only \n, unlike cin (\n, space, tab)
+		// std::ws to ignore any (\n, white space, tabs) until the real data is reached
 		getline(cin >> ws, Text);
 
 		return Text;
@@ -103,39 +113,56 @@ namespace in
 	}
 
 
-	int ReadPositiveNumber(const string& Message)
+	int ReadPositiveNumber(const string& Message, const string& RangeMessageError = message::RangeMessageError, const string& MessageError = message::MessageError)
 	{
 		int Number = 0;
+		string _Message = Message;
 
 		do
 		{
-			Number = ReadInt(Message);
+			Number = ReadInt(_Message, MessageError);
 
-		} while (Number < 0);
+			if (Number > 0)
+				break;
+
+			_Message = RangeMessageError;
+
+		} while (true);
 
 		return Number;
 	}
-	int ReadNegativeNumber(const string& Message)
+	int ReadNegativeNumber(const string& Message, const string& RangeMessageError = message::RangeMessageError, const string& MessageError = message::MessageError)
 	{
 		int Number = 0;
+		string _Message = Message;
 
 		do
 		{
-			Number = ReadInt(Message);
+			Number = ReadInt(_Message, MessageError);
 
-		} while (Number > 0);
+			if (Number < 0)
+				break;
+
+			_Message = RangeMessageError;
+
+		} while (true);
 
 		return Number;
 	}
-	int ReadNumberInRange(int From, int To, const string& Message, const string& MessageError = "Invalid Input Please try again : ")
+	int ReadNumberInRange(int From, int To, const string& Message, const string& RangeMessageError = message::RangeMessageError, const string& MessageError = message::MessageError)
 	{
 		int Number = 0;
-
+		string _Message = Message;
 		do
 		{
-			Number = ReadInt(Message, MessageError);
+			Number = ReadInt(_Message, MessageError);
 
-		} while (Number < From || Number > To);
+			if (Number >= From && Number <= To)
+				break;
+
+			_Message = RangeMessageError;
+
+		} while (true);
 
 		return Number;
 	}

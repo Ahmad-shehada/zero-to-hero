@@ -88,6 +88,24 @@
     <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\23_ValidateUntillAgeBetween18And45.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\24_ReadUntillAgeBetween18And45.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\25_PrintNumberFrom1ToN.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\26_PrintNumberFromNTo1.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\27_PrintSumOfOddNumbersFrom1ToN.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\28_PrintSumOfEvenNumbersFrom1ToN.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\29_FactorialOfN.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Problem 1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

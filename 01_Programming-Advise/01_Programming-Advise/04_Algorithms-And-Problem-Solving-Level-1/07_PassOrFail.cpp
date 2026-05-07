@@ -1,5 +1,5 @@
 #include <iostream>
-#include <MtInput.h>
+#include "MyInput.h"
 using namespace std;
 
 enum enState { Pass = 1, Fail = 2 };

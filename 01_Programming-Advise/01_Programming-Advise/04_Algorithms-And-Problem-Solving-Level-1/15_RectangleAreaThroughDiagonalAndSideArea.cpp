@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-#include <MyInput.h>
+#include "MyInput.h"
 using namespace std;
 
 

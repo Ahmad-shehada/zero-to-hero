@@ -1,5 +1,5 @@
 #include <iostream>
-#include "..\..\..\..\My-Cpp-Libreries\Include\MyInput.h"
+#include "MyInput.h"
 using namespace std;
 
 

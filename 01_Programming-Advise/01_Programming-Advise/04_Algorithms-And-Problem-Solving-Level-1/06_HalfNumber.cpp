@@ -1,5 +1,5 @@
 #include <iostream>
-#include <MyInput.h>
+#include "MyInput.h"
 using namespace std;
 
 
@@ -12,6 +12,6 @@ float CalculateHalfNumber(float Number)
 int main()
 {
 	float Number = in::ReadFloat("Please enter a Number : ");
-	float HalfNumber = CalcualateHalfNumber(Number);
+	float HalfNumber = CalculateHalfNumber(Number);
 	cout << HalfNumber << endl;
 }

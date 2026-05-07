@@ -1,5 +1,5 @@
 #include <iostream>
-#include <MyInput.h>
+#include "MyInput.h"
 using namespace std;
 
 float MaxOf2Number(float FirstNumber, float SecondNumber)

@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
-#include <MyMath.h>
-#include <MyInput.h>
+#include "MyMath.h"
+#include "MyInput.h"
 using namespace std;
 
 

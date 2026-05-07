@@ -1,5 +1,5 @@
 #include <iostream>
-#include <MyInput.h>
+#include "MyInput.h"
 using namespace std;
 
 double SumOf3Number(double FirstNumber, double SecondNumber, double ThirdNumber)
