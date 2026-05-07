@@ -19,9 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 1.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
+    <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 1.cpp" />
     <ClCompile Include="..\..\..\programming advise\project\Problem Solving 1\Problem Solving 1\Problem 10.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
