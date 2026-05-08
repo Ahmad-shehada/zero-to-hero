@@ -60,9 +60,6 @@
     <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\13_SwapNumber.cpp">
       <Filter>Source Files\04_Algorithms-And-Problem-Solving-Level-1</Filter>
     </ClCompile>
-    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\14_RectangleArea.cpp">
-      <Filter>Source Files\04_Algorithms-And-Problem-Solving-Level-1</Filter>
-    </ClCompile>
     <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\15_RectangleAreaThroughDiagonalAndSideArea.cpp">
       <Filter>Source Files\04_Algorithms-And-Problem-Solving-Level-1</Filter>
     </ClCompile>
@@ -262,6 +259,66 @@
       <Filter>Source Files\04_Algorithms-And-Problem-Solving-Level-1</Filter>
     </ClCompile>
     <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\29_FactorialOfN.cpp">
+      <Filter>Source Files\04_Algorithms-And-Problem-Solving-Level-1</Filter>
+    </ClCompile>
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\30_PowerOfM.cpp">
+      <Filter>Source Files\04_Algorithms-And-Problem-Solving-Level-1</Filter>
+    </ClCompile>
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\31_GradeA-B-C-D-E-F.cpp">
+      <Filter>Source Files\04_Algorithms-And-Problem-Solving-Level-1</Filter>
+    </ClCompile>
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\32_CommissionPercentage.cpp">
+      <Filter>Source Files\04_Algorithms-And-Problem-Solving-Level-1</Filter>
+    </ClCompile>
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\33_PiggyBankCalculator.cpp">
+      <Filter>Source Files\04_Algorithms-And-Problem-Solving-Level-1</Filter>
+    </ClCompile>
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\34_SimpleCalculator.cpp">
+      <Filter>Source Files\04_Algorithms-And-Problem-Solving-Level-1</Filter>
+    </ClCompile>
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\35_SumUntill-99.cpp">
+      <Filter>Source Files\04_Algorithms-And-Problem-Solving-Level-1</Filter>
+    </ClCompile>
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\36_IsPrimeNumber.cpp">
+      <Filter>Source Files\04_Algorithms-And-Problem-Solving-Level-1</Filter>
+    </ClCompile>
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\37_PayRemainder.cpp">
+      <Filter>Source Files\04_Algorithms-And-Problem-Solving-Level-1</Filter>
+    </ClCompile>
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\38_ServiceFeeAndSalesTax.cpp">
+      <Filter>Source Files\04_Algorithms-And-Problem-Solving-Level-1</Filter>
+    </ClCompile>
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\39_WeeksAndDays.cpp">
+      <Filter>Source Files\04_Algorithms-And-Problem-Solving-Level-1</Filter>
+    </ClCompile>
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\40_TaskDurationInSeconds.cpp">
+      <Filter>Source Files\04_Algorithms-And-Problem-Solving-Level-1</Filter>
+    </ClCompile>
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\41_SecondsToDaysHoursMinutesSeconds.cpp">
+      <Filter>Source Files\04_Algorithms-And-Problem-Solving-Level-1</Filter>
+    </ClCompile>
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\42_DayOfWeek.cpp">
+      <Filter>Source Files\04_Algorithms-And-Problem-Solving-Level-1</Filter>
+    </ClCompile>
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\43_MonthOfYear.cpp">
+      <Filter>Source Files\04_Algorithms-And-Problem-Solving-Level-1</Filter>
+    </ClCompile>
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\44_PrintLettersFromAToZ.cpp">
+      <Filter>Source Files\04_Algorithms-And-Problem-Solving-Level-1</Filter>
+    </ClCompile>
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\45_LoanInstalmentMonths.cpp">
+      <Filter>Source Files\04_Algorithms-And-Problem-Solving-Level-1</Filter>
+    </ClCompile>
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\14_RectangleArea.cpp">
+      <Filter>Source Files\04_Algorithms-And-Problem-Solving-Level-1</Filter>
+    </ClCompile>
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\46_MonthlyLoanInstallment.cpp">
+      <Filter>Source Files\04_Algorithms-And-Problem-Solving-Level-1</Filter>
+    </ClCompile>
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\47_AtmPin.cpp">
+      <Filter>Source Files\04_Algorithms-And-Problem-Solving-Level-1</Filter>
+    </ClCompile>
+    <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\48_AtmPin3Times.cpp">
       <Filter>Source Files\04_Algorithms-And-Problem-Solving-Level-1</Filter>
     </ClCompile>
   </ItemGroup>

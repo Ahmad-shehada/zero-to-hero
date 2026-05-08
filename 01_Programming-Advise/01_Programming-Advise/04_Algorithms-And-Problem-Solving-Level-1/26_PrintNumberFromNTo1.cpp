@@ -19,7 +19,7 @@ void PrintNumberFromNTo1(int Number, bool State)
 
 int main()
 {
-	int Number = in::ReadPositiveNumber("Please enter a Positive Number : ");
+	int Number = in::ReadPositiveIntNumber("Please enter a Positive Number : ");
 	PrintNumberFromNTo1(Number, 1);
 	PrintNumberFromNTo1(Number, 0);
 

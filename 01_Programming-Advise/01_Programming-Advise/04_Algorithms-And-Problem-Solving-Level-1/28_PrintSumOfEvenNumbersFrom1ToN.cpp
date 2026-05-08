@@ -19,7 +19,7 @@ int SumOfEvenNumberFrom1ToN(int Number)
 
 int main()
 {
-	int Number = in::ReadPositiveNumber("Please enter a Positive Number : ");
+	int Number = in::ReadPositiveIntNumber("Please enter a Positive Number : ");
 	int Sum = SumOfEvenNumberFrom1ToN(Number);
 	cout << Sum << endl;
 

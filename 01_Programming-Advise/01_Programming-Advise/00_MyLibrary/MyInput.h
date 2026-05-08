@@ -113,7 +113,7 @@ namespace in
 	}
 
 
-	int ReadPositiveNumber(const string& Message, const string& RangeMessageError = message::RangeMessageError, const string& MessageError = message::MessageError)
+	int ReadPositiveIntNumber(const string& Message, const string& RangeMessageError = message::RangeMessageError, const string& MessageError = message::MessageError)
 	{
 		int Number = 0;
 		string _Message = Message;
@@ -122,7 +122,7 @@ namespace in
 		{
 			Number = ReadInt(_Message, MessageError);
 
-			if (Number > 0)
+			if (Number >= 0)
 				break;
 
 			_Message = RangeMessageError;
@@ -131,6 +131,25 @@ namespace in
 
 		return Number;
 	}
+	float ReadPositiveFloatNumber(const string& Message, const string& RangeMessageError = message::RangeMessageError, const string& MessageError = message::MessageError)
+	{
+		float Number = 0;
+		string _Message = Message;
+
+		do
+		{
+			Number = ReadFloat(_Message, MessageError);
+
+			if (Number >= 0)
+				break;
+
+			_Message = RangeMessageError;
+
+		} while (true);
+
+		return Number;
+	}
+
 	int ReadNegativeNumber(const string& Message, const string& RangeMessageError = message::RangeMessageError, const string& MessageError = message::MessageError)
 	{
 		int Number = 0;
@@ -149,13 +168,31 @@ namespace in
 
 		return Number;
 	}
-	int ReadNumberInRange(int From, int To, const string& Message, const string& RangeMessageError = message::RangeMessageError, const string& MessageError = message::MessageError)
+	
+	int ReadIntNumberInRange(int From, int To, const string& Message, const string& RangeMessageError = message::RangeMessageError, const string& MessageError = message::MessageError)
 	{
 		int Number = 0;
 		string _Message = Message;
 		do
 		{
 			Number = ReadInt(_Message, MessageError);
+
+			if (Number >= From && Number <= To)
+				break;
+
+			_Message = RangeMessageError;
+
+		} while (true);
+
+		return Number;
+	}
+	float ReadFloatNumberInRange(int From, int To, const string& Message, const string& RangeMessageError = message::RangeMessageError, const string& MessageError = message::MessageError)
+	{
+		float Number = 0;
+		string _Message = Message;
+		do
+		{
+			Number = ReadFloat(_Message, MessageError);
 
 			if (Number >= From && Number <= To)
 				break;
