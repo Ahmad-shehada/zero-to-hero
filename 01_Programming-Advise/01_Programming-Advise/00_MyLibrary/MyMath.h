@@ -16,6 +16,13 @@ namespace math
 		return (Number & 1) == 0;
 	}
 
+	void Swap(int& FirstNumber, int& SecondNumber)
+	{
+		int Temp = FirstNumber;
+		FirstNumber = SecondNumber;
+		SecondNumber = Temp;
+	}
+
 	unsigned long long Factorial(short Number)
 	{
 		unsigned long long Factorial = 1;
@@ -58,5 +65,39 @@ namespace math
 		}
 
 		return true;
+	}
+
+	bool isPerfect(int Number)
+	{
+		int Limit = Number / 2;
+		int Sum = 1;
+
+		for (int i = 2; i <= Limit; i++)
+		{
+			if (Number % i == 0)
+				Sum += i;
+		}
+
+		return (Sum == Number && Number != 1);
+	}
+
+	int ReverseNumber(int Number)
+	{
+		int Digit = 0;
+		int ReverseNumber = 0;
+
+		while (Number != 0)
+		{
+			Digit = Number % 10;
+			Number /= 10;
+			ReverseNumber = (ReverseNumber * 10) + Digit;
+		}
+
+		return ReverseNumber;
+	}
+
+	bool isPalindrome(int Number)
+	{
+		return Number == ReverseNumber(Number);
 	}
 }
