@@ -19,6 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="03_Introduction-To-Programming-Using-Cpp-Level_1\00_Operator_Precedence.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="06_Introduction-To-Programming-Using-Cpp-Level_2\02_Library.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="06_Introduction-To-Programming-Using-Cpp-Level_2\01_Debugging.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\01_PrintFullName.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -313,10 +322,16 @@
     <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\09_PrintAllDigitsFrequency.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Project 1.cpp" />
-    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Project 2.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Project_1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Project_2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="06_Introduction-To-Programming-Using-Cpp-Level_2\03_Ternary-Operator.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="06_Introduction-To-Programming-Using-Cpp-Level_2\04_Ranged_Loop.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="00_MyLibrary\MyInput.h" />

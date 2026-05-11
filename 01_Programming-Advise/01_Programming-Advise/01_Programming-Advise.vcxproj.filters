@@ -19,6 +19,12 @@
     <Filter Include="Source Files\05_Algorithms-And-Problem-Solving-Level-2">
       <UniqueIdentifier>{ba3f1e8b-717a-4cd9-85bc-1a3bd287331f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\06_Introduction-To-Programming-Using-Cpp-Level_2">
+      <UniqueIdentifier>{606b8d3f-04b8-4cc6-988d-2d53d6e9b8ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03_Introduction-To-Programming-Using-Cpp-Level_1">
+      <UniqueIdentifier>{9f11be6b-8995-4ca2-bf64-0e5286aa7091}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="04_Algorithms-And-Problem-Solving-Level-1\01_PrintFullName.cpp">
@@ -315,11 +321,26 @@
     <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\50_MySqrt.cpp">
       <Filter>Source Files\05_Algorithms-And-Problem-Solving-Level-2</Filter>
     </ClCompile>
-    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Project 1.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Project_2.cpp">
       <Filter>Source Files\05_Algorithms-And-Problem-Solving-Level-2</Filter>
     </ClCompile>
-    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Project 2.cpp">
+    <ClCompile Include="05_Algorithms-And-Problem-Solving-Level-2\Project_1.cpp">
       <Filter>Source Files\05_Algorithms-And-Problem-Solving-Level-2</Filter>
+    </ClCompile>
+    <ClCompile Include="06_Introduction-To-Programming-Using-Cpp-Level_2\01_Debugging.cpp">
+      <Filter>Source Files\06_Introduction-To-Programming-Using-Cpp-Level_2</Filter>
+    </ClCompile>
+    <ClCompile Include="06_Introduction-To-Programming-Using-Cpp-Level_2\02_Library.cpp">
+      <Filter>Source Files\06_Introduction-To-Programming-Using-Cpp-Level_2</Filter>
+    </ClCompile>
+    <ClCompile Include="06_Introduction-To-Programming-Using-Cpp-Level_2\03_Ternary-Operator.cpp">
+      <Filter>Source Files\06_Introduction-To-Programming-Using-Cpp-Level_2</Filter>
+    </ClCompile>
+    <ClCompile Include="03_Introduction-To-Programming-Using-Cpp-Level_1\00_Operator_Precedence.cpp">
+      <Filter>Source Files\03_Introduction-To-Programming-Using-Cpp-Level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="06_Introduction-To-Programming-Using-Cpp-Level_2\04_Ranged_Loop.cpp">
+      <Filter>Source Files\06_Introduction-To-Programming-Using-Cpp-Level_2</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
