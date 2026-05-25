@@ -39,36 +39,6 @@ void HowCompilarRead(int x, int y)
 }
 
 
-//Problem Solving
-char GetLetterMark(int Number)
-{
-	return (Number >= 90) ? 'A' :
-		   (Number >= 80) ? 'B' :
-		   (Number >= 70) ? 'C' : 'F';
-}
-
-int GetMax(int a, int b, int c)
-{
-	return (a > b) ?
-		(a > c) ? a : c :
-		(b > c) ? b : c;
-}
-
-string StateMachine(bool isEmergency, int Timer)
-{
-	return (isEmergency || Timer > 60) ? "Green" :
-		(Timer >= 20) ? "Yellow" : "Red";
-}
-
-int Calcualate(int a, int b, char op)
-{
-	return (op == '+') ? a + b :
-		(op == '-') ? a - b :
-		(op == '*') ? a * b :
-		(op == '/' && b != 0) ? a / b : 0;
-}
-
-
 int main()
 {
 	

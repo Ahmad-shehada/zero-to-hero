@@ -342,6 +342,48 @@
     <ClCompile Include="06_Introduction-To-Programming-Using-Cpp-Level_2\04_Ranged_Loop.cpp">
       <Filter>Source Files\06_Introduction-To-Programming-Using-Cpp-Level_2</Filter>
     </ClCompile>
+    <ClCompile Include="06_Introduction-To-Programming-Using-Cpp-Level_2\06_Bitwise_And_Operator.cpp">
+      <Filter>Source Files\06_Introduction-To-Programming-Using-Cpp-Level_2</Filter>
+    </ClCompile>
+    <ClCompile Include="06_Introduction-To-Programming-Using-Cpp-Level_2\05_Validate_Number.cpp">
+      <Filter>Source Files\06_Introduction-To-Programming-Using-Cpp-Level_2</Filter>
+    </ClCompile>
+    <ClCompile Include="06_Introduction-To-Programming-Using-Cpp-Level_2\07_Bitwise_Or_Operator.cpp">
+      <Filter>Source Files\06_Introduction-To-Programming-Using-Cpp-Level_2</Filter>
+    </ClCompile>
+    <ClCompile Include="06_Introduction-To-Programming-Using-Cpp-Level_2\08_Declaration_Vs_Definition.cpp">
+      <Filter>Source Files\06_Introduction-To-Programming-Using-Cpp-Level_2</Filter>
+    </ClCompile>
+    <ClCompile Include="06_Introduction-To-Programming-Using-Cpp-Level_2\09_Default_Parameters.cpp">
+      <Filter>Source Files\06_Introduction-To-Programming-Using-Cpp-Level_2</Filter>
+    </ClCompile>
+    <ClCompile Include="06_Introduction-To-Programming-Using-Cpp-Level_2\10_Function_Overloading.cpp">
+      <Filter>Source Files\06_Introduction-To-Programming-Using-Cpp-Level_2</Filter>
+    </ClCompile>
+    <ClCompile Include="06_Introduction-To-Programming-Using-Cpp-Level_2\11_Call_Stack-Call_Hierarchy.cpp">
+      <Filter>Source Files\06_Introduction-To-Programming-Using-Cpp-Level_2</Filter>
+    </ClCompile>
+    <ClCompile Include="06_Introduction-To-Programming-Using-Cpp-Level_2\12_Recursion.cpp">
+      <Filter>Source Files\06_Introduction-To-Programming-Using-Cpp-Level_2</Filter>
+    </ClCompile>
+    <ClCompile Include="06_Introduction-To-Programming-Using-Cpp-Level_2\14_Automatic_Variables.cpp">
+      <Filter>Source Files\06_Introduction-To-Programming-Using-Cpp-Level_2</Filter>
+    </ClCompile>
+    <ClCompile Include="06_Introduction-To-Programming-Using-Cpp-Level_2\13_Static_Variable.cpp">
+      <Filter>Source Files\06_Introduction-To-Programming-Using-Cpp-Level_2</Filter>
+    </ClCompile>
+    <ClCompile Include="06_Introduction-To-Programming-Using-Cpp-Level_2\15_Printing_And_Formatting.cpp">
+      <Filter>Source Files\06_Introduction-To-Programming-Using-Cpp-Level_2</Filter>
+    </ClCompile>
+    <ClCompile Include="06_Introduction-To-Programming-Using-Cpp-Level_2\16_Two_Dimensional_Array.cpp">
+      <Filter>Source Files\06_Introduction-To-Programming-Using-Cpp-Level_2</Filter>
+    </ClCompile>
+    <ClCompile Include="06_Introduction-To-Programming-Using-Cpp-Level_2\17_Vectors.cpp">
+      <Filter>Source Files\06_Introduction-To-Programming-Using-Cpp-Level_2</Filter>
+    </ClCompile>
+    <ClCompile Include="06_Introduction-To-Programming-Using-Cpp-Level_2\18_References.cpp">
+      <Filter>Source Files\06_Introduction-To-Programming-Using-Cpp-Level_2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="00_MyLibrary\MyInput.h">

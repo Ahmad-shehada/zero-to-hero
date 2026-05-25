@@ -53,7 +53,7 @@ void SetCorrectScreenColor(bool State)
 	}
 }
 
-//Char method
+//Char and String method
 char GetOperationChar(enOperationType OperationType)
 {
 	char charOperationType[4] = { '+', '-', '*', '/' };
@@ -207,7 +207,7 @@ stQuizz PlayGame()
 	Quizz.Setting = ReadQuizzSettings();
 	GenerationQuestions(Quizz.QuestionsList, Quizz.Setting);
 	AskAndCorrectQuestions(Quizz.QuestionsList, Quizz.Setting.noOfQuestions);
-	CalculateGameScore(Quizz.QuestionsList, Quizz.Setting);
+	Quizz.Score = CalculateGameScore(Quizz.QuestionsList, Quizz.Setting);
 	Quizz.isPass = isPass(Quizz.Score.noOfRightAnswers, Quizz.Score.noOfWrongAnswers);
 
 	return Quizz;
