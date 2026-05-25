@@ -1,5 +1,5 @@
 //Table Operator Precedence
-//Rand		Operator				 Associativity		
+//Rank		Operator				 Associativity		
 // 1		   ::					 Left to Right	
 // 2		 () [] -> .				 Left to Right
 // 3	 ++ -- ! ~ - + * &			 Right to Left
